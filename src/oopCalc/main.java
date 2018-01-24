@@ -1,10 +1,22 @@
 package oopCalc;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		int operation = Input.nextInt();
+		
+		switch (operation) {
+		case 1: Add();
+		case 2: Substract();
+		case 3: Multiply();
+		case 4: Divide();
+		
+	
+	
+		}
+		}
 	}
-
-}
