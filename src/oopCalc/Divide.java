@@ -2,11 +2,12 @@ package oopCalc;
 
 import java.util.Scanner;
 
-public class Divide {
+public class Divide extends main {
 	
-	static void Divide() {
+	public static void Divide() {
 		
-		scanner nums = new Scanner (System.in);
+		Scanner scanner = new Scanner (System.in);
+		double num = Scanner.nextDouble();
 	}
 	
 	double a;
@@ -14,9 +15,9 @@ public class Divide {
 	double result;
 	
 	System.out.println("Enter 1st number");
-	a = nums.nextInt ();
+	a = scanner.nextDouble ();
 	System.out.println("Enter 2nd number");
-	b = nums.nextInt ();
+	b = scanner.nextDouble ();
 	
 	if (b=0) {
 		
@@ -33,4 +34,4 @@ public class Divide {
 
 }
 
-}
+

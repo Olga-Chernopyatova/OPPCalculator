@@ -2,23 +2,27 @@ package oopCalc;
 
 import java.util.Scanner;
 
-public class Add {
+public class Add extends main {
 	
-	static void Add() {
-		scanner nums = new Scanner (System.in);
+	public static void Add() {
+
+		Scanner scanner = new Scanner (System.in);
+		double num = scanner.nextDouble();
+		
 	}
-	
+
 	double a;
 	double b;
 	double result;
 	
 	System.out.println("Enter 1st number");
-	a = nums.nextInt ();
+	a = scanner.nextDouble ();
 	System.out.println("Enter 2nd number");
-	b = nums.nextInt ();
+	b = scanner.nextDouble ();
 	
 	result = a + b;
 	
-	System.out.println("Result is  " + result )
+	System.out.println("Result is  " + result );
 
+}
 }

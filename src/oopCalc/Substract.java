@@ -2,10 +2,11 @@ package oopCalc;
 
 import java.util.Scanner;
 
-public class Substract {
+public class Substract extends main {
 	
-	static void Substract() {
-		scanner nums = new Scanner (System.in);
+	 static void Substract() {
+		Scanner scanner = new Scanner (System.in);
+		double num = scanner.nextDouble();
 	}
 	
 	double a;
@@ -13,9 +14,9 @@ public class Substract {
 	double result;
 	
 	System.out.println("Enter 1st number");
-	a = nums.nextInt ();
+	a = scanner.nextDouble ();
 	System.out.println("Enter 2nd number");
-	b = nums.nextInt ();
+	b = scanner.nextDouble ();
 	
 	result = a - b;
 	
