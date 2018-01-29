@@ -18,7 +18,7 @@ public class Add extends main {
 	System.out.println("Enter 1st number");
 	a = scanner.nextDouble ();
 	System.out.println("Enter 2nd number");
-	b = scanner.nextDouble ();
+	b = scanner.nextDouble ();{
 	
 	result = a + b;
 	

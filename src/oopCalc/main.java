@@ -6,7 +6,6 @@ public class main {
 
 	public static void main(String[] args) {
 
-		int operation = Input.nextInt();
 		
 		Scanner scanner = new Scanner (System.in);
 	    System.out.println("Choose the operation");
@@ -14,7 +13,7 @@ public class main {
 		
 		int input = scanner.nextInt();
 		
-		switch (operation) {
+		switch (input) {
 		case 1: Add();
 		case 2: Substract();
 		case 3: Multiply();
@@ -37,6 +36,22 @@ public class main {
 
 	private static void Add() {
 		
+	}
+
+	public static double add(double a, double b) {
+		return 0;
+	}
+
+	public static double multiply(double a, double b) {
+		return 0;
+	}
+
+	public static double substract(double a, double b) {
+		return 0;
+	}
+
+	public static double divide(double a, double b) {
+		return 0;
 	}
 
 
