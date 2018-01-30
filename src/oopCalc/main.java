@@ -19,10 +19,93 @@ public class main {
 		case 3: Multiply();
 		case 4: Divide();
 			
-		}
+		 class Add extends main {
+			
+			 private void Add() {
+
+				Scanner scanner = new Scanner (System.in);
+				double num = scanner.nextDouble();
+			}
+
+			double a;
+			double b;
+			double result;
+
+			System.out.println("Enter 1st number");
+			a = scanner.nextDouble ();
+			System.out.println("Enter 2nd number");
+			b = scanner.nextDouble ();{
+			
+			result = a + b;
+			
+			System.out.println("Result is  " + result );
+			}}
+			class Divide extends main {
+				
+				public void Divide() {
+					
+					Scanner scanner = new Scanner (System.in);
+					double num = Scanner.nextDouble();
+				}
+
+				double a;
+				double b;
+				double result; 
+				{
+				
+				try {
+				
+				System.out.println("Enter 1st number");
+				a = Scanner.nextDouble ();
+				System.out.println("Enter 2nd number");
+				b = Scanner.nextDouble ();
+				} 
+				catch (b=0) {
+					System.out.println("You can't divide into 0!");	
+				}
+				}
+				{
+				
+				result = a / b;
+				
+				System.out.println("Result is  " + result );
+				return;
+		
+				
+				public class Substract extends main {
+					
+					 static void Substract() {
+						Scanner scanner = new Scanner (System.in);
+						double num = scanner.nextDouble();
+					}
+					
+					double a;
+					double b;
+					double result;
+					
+					System.out.println("Enter 1st number");
+					a = scanner.nextDouble ();
+					System.out.println("Enter 2nd number");
+					b = scanner.nextDouble ();{
+					
+					result = a - b;
+					
+					System.out.println("Result is  " + result );
+					return;}
+		
 		}
 
+ {
+		
+	}}
+
 	private static void Divide() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void Add() {
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -34,7 +117,7 @@ public class main {
 
 	}
 
-	private static void Add() {
+	 {
 		
 	}
 
